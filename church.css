@@ -7,7 +7,7 @@
 
 nav{
     display: flex;
-    
+    margin-left: 50%;
     justify-content: space-between;
     flex-wrap: wrap;
 
@@ -53,35 +53,78 @@ nav ul li a:hover::after{
 
 
 body {
- margin: 0;
- padding: 0;
- overflow: hidden;
-
+    margin: 0;
+    padding: 0;
+    
 }
         
 .video-container {
- position: fixed;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
- z-index: -1;
- overflow: hidden;
-
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: -1;
  }
         
 video {
- object-fit: cover;
- width: 100%;
- height: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 
 }
         
 .content {
- position: relative;
- z-index: 1;
- text-align: center;
- color: #fcfcfc;
-padding: 20px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fcfcfc;
+    padding: 20px;
 
 }
+
+
+            /*----------About Cebu church-----------*/
+
+
+.about-church{
+    font-size: 45px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(201, 91, 17);
+    width: 100%;
+    background-color: black;
+    margin-top: 50%;
+    word-wrap: none;
+            
+}
+
+
+img{
+    height: 400px;
+    width: 540px;
+}
+
+
+button{
+    width: 300px;
+    padding: 20px;  
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 50%;
+}
+
+
+button:hover{
+    background: rgb(25, 37, 201);
+    transition: 0.5s;
+}
+button:hover{
+    color: white;
+}      
