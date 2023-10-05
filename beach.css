@@ -89,12 +89,12 @@ video {
 
 
 .about-beach{
-    border: 5px solid rgb(228, 255, 78);
+    border: 5px solid rgb(238, 238, 236);
     width: 100%;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border: 5px solid rgb(173, 123, 29);
     width: 100%;
-    background-color: #2f9dc9;
+    background-color: #ffffff;
     margin-top: 20%;
    text-align: center;
 }
@@ -173,6 +173,15 @@ button:hover{
 }
 button:hover{
     color: white;
+}
+
+
+    
+.next{
+    text-decoration: none;
+    font-size: 50px;    
+    margin-left:1%;
+   margin-bottom: 1%;
 }
 
 
