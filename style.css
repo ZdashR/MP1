@@ -1,0 +1,27 @@
+@media only screen and (max-width:820) {
+
+
+    .sub-title{
+        font-size: 30px;
+    }
+
+    .nav{
+        font-size:20px;
+    }
+    
+
+}
+
+
+
+
+@media only screen and (max-width:618){
+
+      #about{
+        font-size:40px ;
+      }
+
+
+
+}
+
