@@ -92,9 +92,9 @@ video {
     border: 5px solid rgb(238, 238, 236);
     width: 100%;
     color: rgb(0, 0, 0);
-    border: 5px solid rgb(173, 123, 29);
+    border: 5px solid rgb(5, 5, 4);
     width: 100%;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     margin-top: 20%;
    text-align: center;
 }
@@ -186,3 +186,36 @@ button:hover{
 
 
 
+
+
+@media only screen and (max-width: 280px) {
+
+
+    
+    html,
+    body {
+      width: 90vw;
+    }
+
+        .about-beach{
+            width: 160%;
+            margin-top: 140%;
+        }
+
+        
+        .about-beach h1{
+            font-size: 50px;
+            
+        }
+        .next{
+            font-size: 20px;
+        }
+
+        nav{
+            margin-left: 0;
+            margin-left: 100%;
+            display: flex;
+      
+
+        }
+    }

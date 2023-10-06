@@ -158,6 +158,39 @@ video {
 }
 
 
+@media only screen and (max-width: 280px) {
+
+
+    
+    html,
+    body {
+      width: 90vw;
+    }
+
+        .about-festival{
+            width: 200%;
+            margin-top: 160%;
+            margin-bottom: 1px;
+        }
+
+        
+        .about-festival p{
+            font-size: 15px;
+            
+        }
+        .next{
+            font-size: 15px;
+        }
+
+        nav{
+            
+            margin-left: 150%;
+            display: flex;
+      
+
+        }
+    }
+
 
 
 

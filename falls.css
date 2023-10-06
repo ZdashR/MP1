@@ -138,4 +138,37 @@ button:hover{
 }
 
 
+@media only screen and (max-width: 280px) {
+
+
+    
+    html,
+    body {
+      width: 90vw;
+    }
+
+        .about-falls{
+            width: 170%;
+            margin-top: 140%;
+            margin-bottom: 1px;
+        }
+
+        
+        .about-falls h1{
+            font-size: 50px;
+            
+        }
+        .next{
+            font-size: 20px;
+        }
+
+        nav{
+            
+            margin-left: 120%;
+            display: flex;
+      
+
+        }
+    }
+
   

@@ -18,7 +18,10 @@
 @media only screen and (max-width:618){
 
       #about{
-        font-size:40px ;
+        font-size:10px ;
+      }
+      .about-col-1{
+        font-size: 10px;
       }
 
 
